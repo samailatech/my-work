@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  margin: 0 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +15,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #333;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
 }
 
 .App-link {
@@ -35,4 +36,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Navigation{
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.Navigation a{
+  color: #fff;
+  text-decoration: none;
+}
+.Navigation a:hover{
+  color: #ccc;
+}
+.Features{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.FeaturedProject{
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  width: calc(33.33% - 2rem);
+}
+.Testimonial{
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+.Testimonial p{
+  font-style: italic;
+}
+.callToAction {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+.callToAction p{
+  margin: 1rem;
 }
