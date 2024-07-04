@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navigation from './navigation';
 import FeaturedProject from './featuredProject';
@@ -7,6 +6,7 @@ import Testimonial from './testimonial';
 import ContactForm from './contactForm';
 import Footer from './footer';
 import About from './about';
+import logo from './img/IMG-20240702-WA0012.jpg'
 
 
 function App() {

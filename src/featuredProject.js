@@ -1,17 +1,22 @@
 import React from "react";
 import './App.css'
+import proPhoto1 from './img/pro1.jpg'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Slideshow from "./slide";
 
 function FeaturedProject(){
     return(
         <section className="Featured-Project">
             <h2>featured Project</h2>
-            <img src="project-image.png" alt="Project Image"/>
-            <h3>Project Name</h3>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscina elit. sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <Slideshow />
+            <h3>TechForge</h3>
+            <p>Based on the name 'TechForge' and the fact that it's an IT project, so TechForge focuses on Development of innovative software solutions, building a community for IT professionals and enthusiasts,</p>
             <ul>
-                <li>feature 1</li>
-                <li>feature 2</li>
-                <li>feature 3</li>
+                <li>A project management tool for developers</li>
+                <li>A knowlegde base or wiki for IT related topic</li>
+               <li>A community forum or discussion board</li>
+                <li>A resource library for tutorials, webinars, and online courses</li>
+                <li>A showcase for member projects and achievements</li> 
             </ul>
             <button>learn more</button>
         </section>
